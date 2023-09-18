@@ -1,0 +1,47 @@
+.container {}
+
+.mainTitle {
+    font-size: 90px;
+}
+
+.selectTitle {
+    margin: 20px 0px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.item {
+    border: 3px solid #bbb;
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+}
+
+.item:nth-child(1) {
+    background: url("/roadmap.jpg");
+}
+
+.item:nth-child(2) {
+    background: url("/resource.jpg");
+}
+
+.item:nth-child(3) {
+    background: url("/saas.png");
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item:hover .title {
+    color: rgb(255, 31, 31);
+}
